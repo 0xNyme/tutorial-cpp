@@ -53,7 +53,7 @@ tampilkanNilai("John", 85);
 ```
 
 3. **Fungsi dengan Parameter Default**
-- ini maksud ny nilai bawaan atau defaul dari parameter itu sendiri semisal parameter ny gk di isi bakal pake bawaanny 
+- ini maksud ny nilai bawaan atau default dari parameter itu sendiri semisal parameter ny gk di isi bakal pake bawaanny 
 ```cpp
 void sapaPengguna(string nama = "User") {
     cout << "Halo " << nama << "!" << endl;
