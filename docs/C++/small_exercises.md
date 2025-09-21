@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 11
 ---
 
 # Latihan Pemrograman C++
@@ -198,6 +198,7 @@ int main() {
     srand(time(0));
     int angkaRahasia = rand() % 100 + 1;
     int tebakan;
+    // variabel percobaan ada untuk menampung nilai berapa banyak kesalahan tebakan
     int percobaan = 0;
     
     cout << "=== Game Tebak Angka 1-100 ===" << endl;

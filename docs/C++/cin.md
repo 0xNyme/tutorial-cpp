@@ -98,6 +98,7 @@ int main() {
     // Input multiple integer
     int a, b, c;
     cout << "Masukkan tiga angka: ";
+   //  tinggal deretin aja variabelny langsung kalo mau langsung banyak
     cin >> a >> b >> c;
     cout << "Nilai yang dimasukkan: " << a << " " << b << " " << c << endl;
 
