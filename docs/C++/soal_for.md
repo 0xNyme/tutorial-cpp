@@ -24,7 +24,7 @@ Belajar C++ itu menyenangkan!
 Belajar C++ itu menyenangkan!
 ```
 **Contoh Kode**
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -55,7 +55,7 @@ Masukkan bilangan N: 10
 Jumlah dari 1 sampai 10 adalah: 55
 ```
 **Contoh Kode**
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -97,7 +97,7 @@ Selamat, tebakan Anda benar!
 ```
 
 **Contoh Kode**
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -156,7 +156,7 @@ Masukkan bilangan (ketik -1 untuk berhenti): -1
 Rata-rata dari bilangan yang dimasukkan adalah: 20
 ```
 **Contoh Kode**
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 

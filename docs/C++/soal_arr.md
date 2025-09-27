@@ -19,7 +19,7 @@ Anggur
 Pisang
 ```
 **Contoh Kode**
-```c++
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -45,7 +45,7 @@ Nilai terbesar dalam array adalah: 30
 ```
 
 **Contoh Kode**
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -110,7 +110,7 @@ Konsep: Menggunakan loop dan variabel sementara (temporary variable) untuk menuk
 Array setelah dibalik: 5 4 3 2 1
 ```
 **Contoh Kode**
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -139,10 +139,10 @@ int main() {
 ### 5. Pencarian Data Siswa (Hard)
 
 Buatlah dua buah array:
-
-    string namaSiswa[4] = {"Budi", "Ani", "Citra", "Doni"};
-
-    int nilaiSiswa[4] = {85, 92, 78, 88};
+```cpp
+string namaSiswa[4] = {"Budi", "Ani", "Citra", "Doni"};
+int nilaiSiswa[4] = {85, 92, 78, 88};
+```
 
 Program akan meminta pengguna memasukkan sebuah nama. Jika nama tersebut ada di dalam array namaSiswa, program akan mencetak nilai siswa yang bersangkutan. Jika tidak ada, cetak "Data tidak ditemukan".
 
@@ -153,7 +153,7 @@ Masukkan nama siswa yang dicari: Citra
 Nilai Citra adalah: 78
 ```
 **Contoh Kode**
-```
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -202,17 +202,17 @@ Nilai ke-5: 95.5
 Buatlah program yang memiliki sebuah array berisi bilangan bulat (misal: {45, 67, 23, 12, 58}). Program harus dapat menemukan dan mencetak nilai terkecil dari semua elemen dalam array tersebut.
 
 Konsep: Iterasi array dan membandingkan elemen untuk mencari nilai minimum.
-Contoh Output yang Diharapkan:
-
+**Contoh Output yang Diharapkan:**
+```
 Nilai terkecil dalam array adalah: 12
-
+```
 ### 3. Menghitung Jumlah Bilangan Genap (Medium)
 
 Buatlah program yang meminta pengguna untuk memasukkan 6 bilangan bulat ke dalam sebuah array. Setelah itu, program harus menghitung ada berapa banyak bilangan genap di dalam array tersebut dan menampilkannya.
 
 Konsep: Mengisi array dengan input pengguna dan menggunakan operator modulo (%) di dalam loop untuk mengecek kondisi.
-Contoh Interaksi:
-
+**Contoh Interaksi:**
+```
 Masukkan bilangan ke-1: 5
 Masukkan bilangan ke-2: 8
 Masukkan bilangan ke-3: 12
@@ -220,16 +220,16 @@ Masukkan bilangan ke-4: 3
 Masukkan bilangan ke-5: 10
 Masukkan bilangan ke-6: 7
 Jumlah bilangan genap dalam array: 3
-
+```
 #### 4. Menggeser Elemen Array ke Kiri (Medium)
 
 Buatlah program dengan array yang sudah diinisialisasi (misal: {1, 2, 3, 4, 5}). Program harus menggeser semua elemen array satu posisi ke kiri. Elemen pertama akan pindah menjadi elemen terakhir. Cetak hasilnya.
 
 Konsep: Menyimpan elemen pertama dalam variabel sementara, lalu menggeser sisa elemen menggunakan loop, dan menempatkan elemen pertama di posisi terakhir.
-Contoh Output yang Diharapkan:
-
+**Contoh Output yang Diharapkan:**
+```
 Array setelah digeser ke kiri: 2 3 4 5 1
-
+```
 ### 5. Filter Data Berdasarkan Kriteria (Hard)
 
 Diberikan dua array paralel:
@@ -238,5 +238,6 @@ string produk[5] = {"Buku", "Pensil", "Tas", "Sepatu", "Meja"};
 int harga[5] = {50000, 5000, 150000, 250000, 500000};
 ```
 Buatlah program yang meminta pengguna memasukkan batas harga maksimal. Program kemudian akan menampilkan semua produk yang harganya di bawah atau sama dengan batas tersebut.
+
 Konsep: Iterasi melalui array, menggunakan if untuk memfilter data berdasarkan input, dan menampilkan elemen yang sesuai dari array pertama.
 Contoh Interaksi:

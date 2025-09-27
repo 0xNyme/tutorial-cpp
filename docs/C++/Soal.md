@@ -20,7 +20,7 @@ Ganjil
 ```
 
 **Contoh kode**
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -59,7 +59,7 @@ Masukkan usia Anda: 15
 Remaja
 ```
 **Contoh Kode**
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -102,7 +102,7 @@ Hasil: 50
 ```
 
 **Contoh Kode :**
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -172,7 +172,7 @@ Tahun Kabisat
 ```
 
 **Contoh Kode:**
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -221,7 +221,7 @@ Masukkan password: 54321
 Password salah
 ```
 **Contoh Kode**
-```c++
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
